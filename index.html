@@ -7,52 +7,34 @@
     <title>Instagram</title>
 </head>
 <body>
-    <div class="instagram-page flex-container">
-        <div class="celular">
+    <div class="instagram-page">
+        <div class="instagram-phone">
             <img src="./images/imagem-celular-background.png" alt="Background do celular">
       <!--     /* <img src="./images/imagem-celular-1.png" alt="Slide 1">
             <img src="./images/imagem-celular-2.png" alt="Slide 2">
             <img src="./images/imagem-celular-3.png" alt="Slide 3"> Slides para ajustar depois
             <img src="./images/imagem-celular-4.png" alt="Slide 4"> -->
         </div>
-        <div class="coluna-login">
-            <div class="coluna-logo">
-                <img src="images/insta-logo.png" class="logo" alt="Logo do Instagram">
+        <div class="instagram-login">
+            <div class="group">
+                <img src="/images/insta-logo.png" class="instagram-logo" alt="Instagram Logo">
+                <input type="text" name="username" placeholder="Phone number, username, or email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="submit" value="Log In">
+                Or
+                <span class="facebook-button">Log In with Facebook</span>
+                <a href="#">Forgot password?</a>
             </div>
-            
-            <div class="credenciais">
-                <div class="login">
-                    <input type="text" name="username" placeholder="Phone number, username, or email" required>
-                </div>
-                <div class="senha">
-                    <input type="password" name="password" placeholder="Password" required>
-                </div>
-                <div class="login-btn">
-                    <input type="submit" value="Login">
-                </div>
-
-                <div>
-                    <p>Or</p>
-                </div>
-
-                <div class="login-facebook">
-                    <button class="facebook-btn">
-                        <span>Log in with Facebook</span>
-                    </button>
-                </div>
-            </div>
-            <div class="coluna-inscrever">
+            <div class="group">
                 <p>Don't have an account?</p>
-                <a href="#">Sign up</a>
+                <a href="#">Sign Up</a>
             </div>
             <div class="get-the-app">
                 <p class="get-app">Get the app.</p>
-                <a href="#" class="app-download">
-                    <img src="images/app-store-button.png" class="appstore" alt="Download on the App Store">
-                </a>
-                <a href="#" class="app-download">
-                    <img src="images/play-store-button.png" class="appstore" alt="Download on the Play Store">
-                </a>
+                <div class="download">
+                    <a href="#" class="app-download"></a>
+                    <a href="#" class="app-download"></a>
+                </div>
             </div>
         </div>
     </div>
